@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="upload-container">
+        <h2>Upload Your File</h2>
+        
+        <!-- File input form -->
+        <input type="file" id="file-input" accept=".txt, .jpg, .png, .pdf">
+        <button onclick="uploadFile()">Upload File</button>
+
+        <!-- Display uploaded file details -->
+        <div id="file-details"></div>
+    </div>
+    
+    <script src="file_upload.js"></script>
+</body>
+</html>
